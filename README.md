@@ -499,17 +499,6 @@ Bei Fragen zum Projekt oder zur Funktionsweise bitte den Autor kontaktieren!
 - "Thinking in Java" - Bruce Eckel
 
 ---
-## 🎉 Zusammenfassung
 
-Dieses Projekt **"Schleifen"** demonstriert auf praktische Weise, wie **do-while Schleifen** in Java funktionieren. Durch die wiederholte Multiplikation und Division wird gezeigt, dass:
-
-1. Schleifen **Aufgaben mehrfach** ausführen können
-2. **Zählervariablen** den Ablauf kontrollieren
-3. **Mathematische Operationen** sauber integrierbar sind
-4. **Bedingungen** die Schleife stoppen
-
-Das Projekt ist **schulkonform**, **vollständig dokumentiert** und **bereit zur Abgabe**! 📚✨
-
----
 
 
