@@ -386,50 +386,7 @@ Das Projekt demonstriert folgende Java-Konzepte:
 
 ---
 
-## 🚨 Bekannte Einschränkungen & Verbesserungen
 
-### ⚠️ Aktuelle Einschränkungen
-- Keine **Fehlerbehandlung** für ungültige Eingaben
-- Keine **Eingabevalidierung** (negative Zahlen möglich)
-- **Floating-Point-Ungenauigkeit** bei wiederholter Division
-- Keine **Benutzeroption** zum Wiederholen
-
-### 💡 Mögliche Verbesserungen
-```java
-// 1. Try-Catch für Fehlerbehandlung
-try {
-    double z = scanner.nextDouble();
-} catch (InputMismatchException e) {
-    System.out.println("Fehler: Nur Zahlen eingeben!");
-}
-
-// 2. Eingabevalidierung
-if (z < 0) {
-    System.out.println("Warnung: Negative Zahl eingegeben!");
-}
-
-// 3. Schleife für Wiederholung
-boolean weiter = true;
-while (weiter) {
-    // ... Programm-Code
-    System.out.print("Nochmal? (j/n): ");
-    weiter = scanner.next().equals("j");
-}
-```
-
----
-
-## 🔮 Erweiterungsmöglichkeiten
-
-- [ ] Fehlerbehandlung mit try-catch
-- [ ] Eingabevalidierung
-- [ ] Menü zum Wiederholen
-- [ ] Verschiedene Schleifentypen (for, while)
-- [ ] Grafische Benutzeroberfläche (GUI)
-- [ ] Verschiedene mathematische Operationen
-- [ ] Schleife von beliebigen Zahlen (nicht nur 2-9)
-
----
 
 ## 📚 Verwendete Konzepte (Schulstoff)
 
@@ -542,21 +499,6 @@ Bei Fragen zum Projekt oder zur Funktionsweise bitte den Autor kontaktieren!
 - "Thinking in Java" - Bruce Eckel
 
 ---
-
-## ✅ Abgabe-Checkliste
-
-- [x] Quellcode geschrieben
-- [x] Programm getestet
-- [x] README.md dokumentiert
-- [x] Code-Kommentare hinzugefügt
-- [x] Beispiel-Ausführungen gezeigt
-- [x] Mathematische Logik erklärt
-- [x] Programmierkonzepte dokumentiert
-- [x] Schleife korrekt implementiert
-- [x] Scanner-Eingabe funktionsfähig
-
----
-
 ## 🎉 Zusammenfassung
 
 Dieses Projekt **"Schleifen"** demonstriert auf praktische Weise, wie **do-while Schleifen** in Java funktionieren. Durch die wiederholte Multiplikation und Division wird gezeigt, dass:
@@ -570,6 +512,4 @@ Das Projekt ist **schulkonform**, **vollständig dokumentiert** und **bereit zur
 
 ---
 
-*Zuletzt aktualisiert: 12.05.2026*  
-*Status: ✅ Abgeschlossen und dokumentiert*  
-*Qualität: 🌟🌟🌟🌟🌟 (Schulstandard erfüllt)*
+
